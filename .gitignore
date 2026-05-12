@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# uv
+.uv-cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ruff
+.ruff_cache/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.antigravity/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific (RiskLens)
+data/raw/*
+!data/raw/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+artifacts/models/*
+!artifacts/models/.gitkeep
+
+artifacts/reports/*
+!artifacts/reports/.gitkeep
+
+# Large data files
+*.parquet
+*.csv
+*.feather
+
+# Serialized models
+*.joblib
+*.pkl
+*.pickle
+
+# MLflow
+mlruns/
+
+# Environments
+.env
+.env.local
+*.env
