@@ -2,13 +2,14 @@ import argparse
 import logging
 from pathlib import Path
 
+from risklens.data.download import download_lending_club, verify_download
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-from risklens.data.download import download_lending_club, verify_download
 
 def main():
     parser = argparse.ArgumentParser(description="Download Lending Club dataset from Kaggle")
-    parser.add_argument("--force", action="store_true", help="Force re-download even if file exists")
+    parser.add_argument("--force", action="store_true", help="Force re-download if file exists")
     args = parser.parse_args()
 
     logging.basicConfig(
