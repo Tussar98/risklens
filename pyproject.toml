@@ -13,7 +13,6 @@ dependencies = [
     "numpy>=1.26,<2.0",
     "pyarrow>=15.0",
     "scipy>=1.11",
-    
     # Modeling
     "scikit-learn>=1.4",
     "xgboost>=2.0",
@@ -21,17 +20,16 @@ dependencies = [
     "lifelines>=0.28",
     "pymc>=5.10",
     "arviz>=0.17",
-    
     # App / API
     "streamlit>=1.32",
     "fastapi>=0.110",
     "uvicorn>=0.27",
     "pydantic>=2.6",
     "pyyaml>=6.0",
-    
     # Plotting
     "matplotlib>=3.8",
-    "seaborn>=0.13"
+    "seaborn>=0.13",
+    "kaggle>=2.1.2",
 ]
 
 [dependency-groups]
